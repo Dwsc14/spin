@@ -36,7 +36,7 @@ let questions = [
   {
     numb: 4,
     question: "Đâu là loại rác có thể tái sử dụng",
-    answer: "Structured Query Language",
+    answer: "Chai sữa tắm",
     options: [
       "Chai sữa tắm",
       "Giấy ướt",
@@ -47,7 +47,7 @@ let questions = [
   {
     numb: 5,
     question: " Môi trường biển nào nhiều rác thải",
-    answer: "eXtensible Markup Language",
+    answer: "các khu du lịch biển.",
     options: [
       "các khu du lịch biển.",
       "các thành phố cảng, nơi khai thác dầu",
