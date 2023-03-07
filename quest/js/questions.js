@@ -38,9 +38,9 @@ let questions = [
     question: "Đâu là loại rác có thể tái sử dụng",
     answer: "Chai sữa tắm",
     options: [
-      "Chai sữa tắm",
-      "Giấy ướt",
       "Pin, ắc quy",
+      "Giấy ướt",
+      "Chai sữa tắm",
       "Khẩu trang y tế"
     ]
   },
