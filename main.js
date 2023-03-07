@@ -25,7 +25,7 @@ let myChart = new Chart(wheel, {
     type: "pie",
     data: {
         //Labels(values which are to be displayed on chart)
-        labels: ["Moc khoa", "200k", "Khau trang", "Coca"],
+        labels: ["Quạt 💕", "Bình nước 🍾", "Móc khóa 🔑", "Notebook 📒"],
         //Settings for dataset/pie
         datasets: [
             {
