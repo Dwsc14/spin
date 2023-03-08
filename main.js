@@ -6,7 +6,7 @@ const rotationValues = [
     { minDegree: 0, maxDegree: 90, value: 1, name: "Quạt 💕" },
     { minDegree: 91, maxDegree: 180, value: 2, name: "Notebook 📒" },
     { minDegree: 181, maxDegree: 270, value: 3, name: "Móc khóa 🔑" },
-    { minDegree: 271, maxDegree: 360, value: 4, name: "Bình nước 🍾" },
+    { minDegree: 271, maxDegree: 360, value: 4, name: "Dù 🌂" },
 ];
 //Size of each piece
 const data = [20, 20, 20, 20];
@@ -25,7 +25,7 @@ let myChart = new Chart(wheel, {
     type: "pie",
     data: {
         //Labels(values which are to be displayed on chart)
-        labels: ["Quạt 💕", "Bình nước 🍾", "Móc khóa 🔑", "Notebook 📒"],
+        labels: ["Quạt 💕", "Dù 🌂", "Móc khóa 🔑", "Notebook 📒"],
         //Settings for dataset/pie
         datasets: [
             {
@@ -76,7 +76,7 @@ spinBtn.addEventListener("click", () => {
     //Empty final value
     finalValue.innerHTML = `<p>Good Luck!</p>`;
     //Generate random degrees to stop at
-    let randomDegree = Math.floor(Math.random() * (265 - 0 + 1) + 0);
+    let randomDegree = Math.floor(Math.random() * 260);
     //Interval for rotation animation
     let rotationInterval = window.setInterval(() => {
         //Set rotation for piechart
